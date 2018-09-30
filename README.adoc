@@ -45,3 +45,7 @@ However this project focus on the learning process rather then a perfect result.
 * Typescript integration of React Native: https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native
 * A little explanation of the difference between Expo & CRNA: https://docs.expo.io/versions/v26.0.0/workflow/create-react-native-app
 * Expo push notifications: https://docs.expo.io/versions/latest/guides/push-notifications
+
+## Hints
+
+* Typescript is import via an transformer. Transformer can be included with the transformer property inside the packagerOpt object of the app.js file
