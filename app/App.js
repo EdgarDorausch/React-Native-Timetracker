@@ -1,21 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+// Link to the App.tsx file inside the src directory
+// This is necessary since expo uses a static dependency of the App.js file 
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+import App from './src/App'
+export default App

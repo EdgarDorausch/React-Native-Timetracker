@@ -17,6 +17,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ],
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
