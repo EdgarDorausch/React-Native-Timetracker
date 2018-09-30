@@ -1,0 +1,47 @@
+# React Native Timetracker
+
+This project aims to be a prototype to learn concepts of an NodeJS, ReactNative & Typescript ecosystem. Therefore I've chosen some basic (technological) features which I want to test/learn while programming the app. On top of this I made up some app features.
+
+However this project focus on the learning process rather then a perfect result. So I try to document my learnings and hints as good as I can.
+
+## Things I want to learn:
+
+* Manifest & co.
+** Loading Screen
+** Icon
+* Activity Management/Navigation
+** (Redux integration)
+** Tabs
+** Stack
+* Styling
+** Colors etc.
+** Animations
+* Remote API
+** Authentication <--> user-system
+** (Bidirectional)
+** Server <--> Tests
+** Documentation
+* Redux
+* Phone API
+** GPS
+** Camera -> QR code
+** Calendar export
+** Push notification
+* App-Tests
+
+## The app should do:
+
+* Login; (Register)
+* Start & Stop time tracking for a Session
+* List sessions
+* Synchronize sessions; up- & download
+* Reminder; sends push notification on a configured date/time; (export reminder to calendar)
+* GPS tagging of sessions
+* (Add friends; view if they are in a active session; real time/subscription; add friend via QR code)
+* Tab-bar: timer, session-list, reminder-list, friend-list
+
+## A list of useful Links
+
+* Typescript integration of React Native: https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native
+* A little explanation of the difference between Expo & CRNA: https://docs.expo.io/versions/v26.0.0/workflow/create-react-native-app
+* Expo push notifications: https://docs.expo.io/versions/latest/guides/push-notifications
