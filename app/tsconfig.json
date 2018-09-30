@@ -17,6 +17,7 @@
       "noImplicitReturns": true,
       "noUnusedLocals": true,
       "outDir": "build/dist",
+      "rootDir": "src",
       "sourceMap": true,
       "strict": true,
       "target": "es2017"
