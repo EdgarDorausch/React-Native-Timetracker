@@ -4,6 +4,8 @@ This project aims to be a prototype to learn concepts of an NodeJS, ReactNative 
 
 However this project focus on the learning process rather then a perfect result. So I try to document my learnings and hints as good as I can.
 
+TIP: To open the UML files (*.mdj) you have to install link:http://staruml.io/[StarUML]
+
 ## Things I want to learn:
 
 * Manifest & co.
